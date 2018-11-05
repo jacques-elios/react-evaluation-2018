@@ -4,6 +4,7 @@ import Header from './Header'
 import RuleForm from './RuleForm'
 import RuleList from './RuleList'
 
+
 const Layout = () => (
   <div>
     <Header />
@@ -12,6 +13,7 @@ const Layout = () => (
         <Route exact path="/" component={RuleList} />
         <Route exact path="/new" component={RuleForm} />
         <Route exact path="/edit/:id" component={RuleForm} />
+               
       </div>
     </div>
   </div>
